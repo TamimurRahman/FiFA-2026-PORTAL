@@ -4,6 +4,10 @@
   
   
 }
+body{
+  max-width: 1500px;
+  margin: 0 auto;
+}
 nav{
   display: flex;
   /* flex-direction: row; */
@@ -32,6 +36,11 @@ nav ul li a{
   border: none;
   border-radius: 12px;
   font-weight: 600;
+}
+
+section{
+  max-width: 1200px;
+  margin: 91px auto;
 }
 header{
   display: flex;
@@ -85,4 +94,46 @@ padding: 42px 40px 53px 39px;
 }
 .match-status h1{
   font-size: 72px;
+}
+
+/* Explore Host Cities */
+
+.explore-cities-parent{
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+
+}
+.explore-cities-parent > h1{
+  font-size: 56px;
+    text-align: center;
+}
+.cities-container{
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  justify-content: center;
+  align-items: center;
+}
+.explore-cities-parent .cities{
+  display: flex;
+  flex-direction: row;
+  gap:48px ;
+  align-items: center;
+}
+
+.cities .cities-content{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.cities ul{
+  padding-inline-start: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cities-content p{
+  width: 80%;
+  font-size: 16px;
 }
