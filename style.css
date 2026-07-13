@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: "Host Grotesk", sans-serif;
   
   
 }
@@ -167,4 +168,41 @@ tbody td{
   text-align: center;
   padding: 16px 0;
   border: 1px solid #777;
+}
+
+/* footer portion */
+footer{
+  background-color: #000000;
+  padding: 78px 60px 0 60px;
+  color: white;
+}
+footer .up-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom:80px ;
+}
+
+footer .up-right-content{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+footer .down-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 24px 0 0 0;
+  padding: 0 0 24px 0;
+}
+.down-left-content{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.down-right-content{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
